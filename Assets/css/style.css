@@ -1,0 +1,92 @@
+/* General Styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+::selection {
+    background-color: rgb(68, 68, 68);
+    color: whitesmoke;
+}
+
+.parallax {
+    background-image: url("../images/purple_splash_bg.jpg");
+    height: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Styling */
+
+#header {
+    position: fixed;
+    width: 100%;
+    top:0;
+    padding: 1.5rem;
+    background-color: #181818de;
+}
+
+#logo {
+    float: left;
+    width: 20%;
+}
+
+#name-logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+#nav-menu {
+    float: left;
+    width: 80%;
+}
+
+#nav-menu ul {
+    text-align: center;
+}
+
+#nav-menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 12px 0 12px;
+}
+
+#nav-menu ul li a {
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+
+
+/* Main Content Styling */
+
+#content {
+
+}
+
+#about {
+    margin-top: 5rem;
+    background-color: #272727;
+    height: 50vh;
+}
+
+
+
+
+
+
+
+
